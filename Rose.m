@@ -25,11 +25,7 @@ Y = R2.*cos(THETA);
 Z = x.*(R.*cos(phi) - y.*sin(phi));
 
 %Color del mapeado
-Rmap = linspace(1,0.25,10);
-Rmap(:,2) = 0;
-Rmap(:,3) = 0;
-
 clf
 surf(X,Y,Z,'LineStyle','none')
 view([-40.50 42.00])
-colormap(Rmap)
+colormap(spring)
