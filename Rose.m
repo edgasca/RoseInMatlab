@@ -1,6 +1,4 @@
 %Eduardo de Jesús Gasca Laguna
-%Laboratorio de DSP
-%Universidad de Guanajuato (DICIS - Salamanca)
 %14/07/2021
 
 n = 800;
